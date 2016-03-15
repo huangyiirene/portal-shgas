@@ -28,7 +28,7 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    "本网站由华炎知识管理系统自动生成"
   # Social networking links used in footer. Update and remove as you like.
-  github:         hotkm
+  # github:         steedos/portal-shgas
   # For Google Authorship https://plus.google.com/authorship
 
 # Analytics and webmaster tools stuff goes here
@@ -40,11 +40,11 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: 首页
     url: /
     external: false
     icon: home
-  - title: Categories
+  - title: 栏目
     url: /categories
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
