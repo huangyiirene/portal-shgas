@@ -54,6 +54,7 @@ future:      true
 markdown:    kramdown
 #paginate:    6
 #paginate_path: "page:num"
+excerpt_separator:  '<!-- more -->'
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:year/:month/:day/:title.html
@@ -63,7 +64,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
   coderay:
     coderay_line_numbers: 

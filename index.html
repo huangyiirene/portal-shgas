@@ -337,7 +337,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </div>
 	                </header>
 	                <div class="post-body bordered-bottom">
-	                {% if post.video %}
+ 	                {% if post.video %}
 	        		{% assign video_embed = post.video | remove:'https://www.youtube.com/watch?v=' %}
                     <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
                     <p class="lead">{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
@@ -398,7 +398,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	        <div class="row">
 	            <article class="post post col-md-8 col-md-offset-2">
 	               <header class="post-header">
-	               {% if post.featured %}<div class="cursive">this post is featured</div>{% endif %}
+	               {% if post.featured %}<div class="cursive">Featured</div>{% endif %}
 	                    {% if post.link %}
 	                    <h2 class="post-title text-center super lighter">
 	                        <a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-link"></i> {{ post.title }}</a>
@@ -414,8 +414,8 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                </header>
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
-	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}&hellip;</p>{% else %}
-	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>{% endif %}
+	                {% if excerptsize <= 100 %}<p class = "lead">{{ post.excerpt }}&hellip;</p>{% else %}
+	                    <p>{{ post.content | truncatewords:100 }}&hellip;</p>{% endif %}
 	                    <div class="text-center">
 	                    {% if post.description %}
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
