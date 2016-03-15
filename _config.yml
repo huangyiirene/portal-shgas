@@ -26,7 +26,7 @@ owner:
   avatar:         hmfaysal.jpg
   email:          support@steedos.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    本网站由华炎知识管理系统自动生成
+  description:    "本网站由华炎知识管理系统自动生成"
   # Social networking links used in footer. Update and remove as you like.
   github:         hotkm
   # For Google Authorship https://plus.google.com/authorship
