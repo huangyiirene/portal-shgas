@@ -22,7 +22,7 @@ url:       		   ""
 
 # Owner/author information
 owner:
-  name:           上海燃气集团 信息发布平台
+  name:           上海燃气集团
   avatar:         hmfaysal.jpg
   email:          support@steedos.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
@@ -44,8 +44,10 @@ links:
     url: /
     external: false
     icon: home
-  - title: 栏目
+  - title: 按单位浏览
     url: /categories
+  - title: 按分类浏览
+    url: /tags
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
